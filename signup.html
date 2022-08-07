@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="d-flex justify-content-center">
+                <img src="Images/2021-04-24 (2).png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 px-5 mt-5">
+                <div class=" mt-5 pt-5">
+                    <div class="text-center">
+                        <h1 class="p-4">Smart Login System</h1>
+                    </div>
+                    <input type="text" class="form-control m-3" placeholder="Enter your name" id="userName">
+                    <p class="text-danger pl-4" id="errorName"></p>
+                    <input type="text" class="form-control m-3" placeholder="Enter your email" id="email">
+                    <p class="text-danger pl-4" id="errorEmail"></p>
+                    <input type="password" class="form-control m-3" placeholder="Enter password" id="password">
+                    <p class="text-danger pl-4" id="errorPassword"></p>
+                    <button type="submit" onclick="signupvalidation()" class="btn w-100 text-white m-3"
+                        style="background-color: #9eb9fe;">Sign up</button>
+                    <p class="text-center text-success d-none" id="confirmMsg">Success</p>
+                </div>
+                <p class="pl-4">You have an account?<a href="signin.html">Signin</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="Js/script.js"></script>
+</body>
